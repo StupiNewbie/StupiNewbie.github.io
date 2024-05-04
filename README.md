@@ -1,0 +1,1 @@
+# StupiNewbie.github.io
