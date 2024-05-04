@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Redirect</h1>
+    <button onclick="redirect(this.name)" name="https://www.youtube.com/">Youtube</button>
+    <button onclick="redirect(this.name)" name="https://www.google.com/">Google</button>
+    <button onclick="redirect(this.name)" name="https://tw.yahoo.com/?p=us">Yahoo!</button>
+    <script>
+        function redirect(des){
+            location.replace(des)
+        }
+    </script>
+</body>
+</html>

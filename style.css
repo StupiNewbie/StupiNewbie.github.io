@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+}
+body button{
+    text-shadow: aqua;
+    text-decoration: dashed;
+}
+button[name="https://www.youtube.com/"]{
+    color:red;
+}
+button[name="https://www.google.com/"]{
+    color:rgb(6, 118, 118);
+}
+button[name="https://tw.yahoo.com/?p=us"]{
+    color:purple;
+}
